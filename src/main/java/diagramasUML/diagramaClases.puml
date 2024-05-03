@@ -1,0 +1,23 @@
+@startuml
+
+class InevitableHalt {
+    +main(args: String[]): void
+}
+
+class NeverHalt {
+    +main(args: String[]): void
+}
+
+class HaltChecker {
+    +checkHalt(codigoPrograma: String, input: String): boolean
+}
+
+class Reverser {
+    +main(args: String[]): void
+}
+
+InevitableHalt --> "1" HaltChecker: checkHalt("countDown", "10")
+NeverHalt --> "2" HaltChecker: checkHalt("countUp", "?")
+Reverser --> HaltChecker: checkHalt(codigoPrograma, input)
+
+@enduml
