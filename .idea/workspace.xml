@@ -63,6 +63,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="comprobacionProblemaParar" />
+      <recent name="simulacionProblemaParar" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
