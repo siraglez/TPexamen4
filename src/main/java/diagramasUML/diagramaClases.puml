@@ -1,23 +1,27 @@
 @startuml
 
 class InevitableHalt {
-    +main(args: String[]): void
+    + main(args: String[])
 }
 
 class NeverHalt {
-    +main(args: String[]): void
+    + main(args: String[])
 }
 
 class HaltChecker {
-    +checkHalt(codigoPrograma: String, input: String): boolean
+    + checkHalt(codigoPrograma: String, input: String): boolean
 }
 
 class Reverser {
-    +main(args: String[]): void
+    - checkButton: JButton
+    + Reverser()
+    + actionPerformed(e: ActionEvent)
+    + main(args: String[])
 }
 
-InevitableHalt --> "1" HaltChecker: checkHalt("countDown", "10")
-NeverHalt --> "2" HaltChecker: checkHalt("countUp", "?")
-Reverser --> HaltChecker: checkHalt(codigoPrograma, input)
+InevitableHalt --|> Object
+NeverHalt --|> Object
+HaltChecker --|> Object
+Reverser --|> JFrame
 
 @enduml
