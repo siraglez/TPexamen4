@@ -7,6 +7,10 @@ import static org.junit.jupiter.api.Assertions.*;
 class ReverserTest {
 
     @Test
+    void actionPerformed() {
+    }
+
+    @Test
     void main() {
     }
 }
