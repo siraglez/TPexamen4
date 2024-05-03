@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6a275f-d197-42e7-b326-adb637fd6d74" name="Changes" comment="comprobación problema parar README.md">
-      <change afterPath="$PROJECT_DIR$/src/test/java/simulacionProblemaParar/InevitableHaltTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9d6a275f-d197-42e7-b326-adb637fd6d74" name="Changes" comment="Actualización">
+      <change beforePath="$PROJECT_DIR$/src/main/java/comprobacionProblemaParar/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comprobacionProblemaParar/Reverser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +47,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Reverser.executor": "Run",
     "DefaultPlantUmlFileTemplate": "UML Class",
+    "JUnit.HaltCheckerTest.executor": "Run",
     "JUnit.InevitableHaltTest.executor": "Run",
+    "JUnit.NeverHaltTest.executor": "Run",
+    "JUnit.ReverserTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -88,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714724202356</updated>
-      <workItem from="1714724203592" duration="826000" />
+      <workItem from="1714724203592" duration="4641000" />
     </task>
     <task id="LOCAL-00001" summary="crear repositorio">
       <option name="closed" value="true" />
@@ -154,7 +157,55 @@
       <option name="project" value="LOCAL" />
       <updated>1714724696098</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="actualización">
+      <option name="closed" value="true" />
+      <created>1714725107409</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714725107409</updated>
+    </task>
+    <task id="LOCAL-00010" summary="InevitableHaltTest.java">
+      <option name="closed" value="true" />
+      <created>1714725117607</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714725117608</updated>
+    </task>
+    <task id="LOCAL-00011" summary="NeverHaltTest.java">
+      <option name="closed" value="true" />
+      <created>1714725156850</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714725156850</updated>
+    </task>
+    <task id="LOCAL-00012" summary="HaltCheckerTest.java">
+      <option name="closed" value="true" />
+      <created>1714725200488</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714725200488</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ReverserTest.java">
+      <option name="closed" value="true" />
+      <created>1714725243978</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714725243978</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Actualización">
+      <option name="closed" value="true" />
+      <created>1714725252479</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714725252479</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +220,12 @@
     <MESSAGE value="diagramaClases.puml" />
     <MESSAGE value="simulación problema parar README.md" />
     <MESSAGE value="comprobación problema parar README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="comprobación problema parar README.md" />
+    <MESSAGE value="actualización" />
+    <MESSAGE value="InevitableHaltTest.java" />
+    <MESSAGE value="NeverHaltTest.java" />
+    <MESSAGE value="HaltCheckerTest.java" />
+    <MESSAGE value="ReverserTest.java" />
+    <MESSAGE value="Actualización" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualización" />
   </component>
 </project>
