@@ -24,18 +24,33 @@ public class Reverser extends JFrame implements ActionListener {
 
     //Método para manejar los eventos de acción
     public void actionPerformed(ActionEvent e) {
-        String codigoPrograma = JOptionPane.showInputDialog(this, "Ingrese el código del programa (countDown o countUp): ");
-        String input = JOptionPane.showInputDialog(this, "Ingrese la entrada específica para el programa: ");
-
-        boolean halts = HaltChecker.checkHalt(codigoPrograma, input);
-        if (halts) {
-            JOptionPane.showMessageDialog(this, "El programa se detiene, entramos en un bucle infinito.");
-            while (true) {
-                //Bucle infinito
+        try {
+            String codigoPrograma = JOptionPane.showInputDialog(this, "Ingrese el código del programa (countDown o countUp): ");
+            if (!codigoPrograma.equals("countDown") && !codigoPrograma.equals("countUp")) {
+                throw new IllegalArgumentException("El código del programa debe ser 'countDown' o 'countUp'.");
             }
-        } else {
-            JOptionPane.showMessageDialog(this, "El programa no se detiene, terminamos inmediatamente.");
-            System.exit(0);
+
+            String inputString = JOptionPane.showInputDialog(this, "Ingrese la entrada específica para el programa: ");
+            int inputNumber = Integer.parseInt(inputString);
+
+            if (inputNumber < 0) {
+                throw new IllegalArgumentException("El número debe ser mayor o igual a 0.");
+            }
+
+            boolean halts = HaltChecker.checkHalt(codigoPrograma, String.valueOf(inputNumber));
+            if (halts) {
+                JOptionPane.showMessageDialog(this, "El programa se detiene, entramos en un bucle infinito.");
+                while (true) {
+                    // Bucle infinito
+                }
+            } else {
+                JOptionPane.showMessageDialog(this, "El programa no se detiene, terminamos inmediatamente.");
+                System.exit(0);
+            }
+        } catch (NumberFormatException ex) {
+            JOptionPane.showMessageDialog(this, "Error: La entrada debe ser un número válido.");
+        } catch (IllegalArgumentException ex) {
+            JOptionPane.showMessageDialog(this, "Error: " + ex.getMessage());
         }
     }
 
