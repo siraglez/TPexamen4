@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6a275f-d197-42e7-b326-adb637fd6d74" name="Changes" comment="diagramaClases.puml" />
+    <list default="true" id="9d6a275f-d197-42e7-b326-adb637fd6d74" name="Changes" comment="README.md actualizado con los cambios del programa" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +91,7 @@
       <updated>1714724202356</updated>
       <workItem from="1714724203592" duration="6307000" />
       <workItem from="1715018860045" duration="1625000" />
-      <workItem from="1715189224351" duration="1229000" />
+      <workItem from="1715189224351" duration="1422000" />
     </task>
     <task id="LOCAL-00001" summary="crear repositorio">
       <option name="closed" value="true" />
@@ -285,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715190339981</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="README.md actualizado con los cambios del programa">
+      <option name="closed" value="true" />
+      <created>1715190510982</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1715190510982</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +321,7 @@
     <MESSAGE value="modificación comprobación entrada HaltChecker" />
     <MESSAGE value="aclarar comentarios" />
     <MESSAGE value="diagramaClases.puml" />
-    <option name="LAST_COMMIT_MESSAGE" value="diagramaClases.puml" />
+    <MESSAGE value="README.md actualizado con los cambios del programa" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md actualizado con los cambios del programa" />
   </component>
 </project>
