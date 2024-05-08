@@ -8,7 +8,7 @@ import java.awt.event.*;
 public class Reverser extends JFrame implements ActionListener {
     private JButton checkButton;
 
-   //Constructor de la calse con la configuración básica de la ventana
+   //Constructor de la clase con la configuración básica de la ventana
     public Reverser() {
         super("Reverser");
         setSize(300, 200);
