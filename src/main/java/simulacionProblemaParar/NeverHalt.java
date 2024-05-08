@@ -1,7 +1,7 @@
 package simulacionProblemaParar;
 
 //Implementación de un programa que nunca se detiene
-//Contador infinito
+//Contador ascendente infinito
 public class NeverHalt {
     public static void main(String[] args) {
         int numero = 0;
