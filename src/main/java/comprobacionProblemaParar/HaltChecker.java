@@ -1,7 +1,5 @@
 package comprobacionProblemaParar;
 
-import java.util.ArrayList;
-import java.util.List;
 
 //Implementación de un método que comprueba si el programa se detiene o no
 public class HaltChecker implements HaltCheckerInterface {

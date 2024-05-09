@@ -1,26 +1,35 @@
 @startuml
 
-class InevitableHalt {
-    + main(String[] args)
+package simulacionProblemaParar {
+    class InevitableHalt {
+        +main(String[] args)
+    }
+
+    class NeverHalt {
+        +main(String[] args)
+    }
 }
 
-class NeverHalt {
-    + main(String[] args)
+package comprobacionProblemaParar {
+    interface HaltCheckerInterface {
+        +checkHalt(String codigoPrograma, String input): boolean
+    }
+
+    class HaltChecker {
+        +checkHalt(String codigoPrograma, String input): boolean
+    }
+
+    class Reverser {
+        -checkButton: JButton
+        -manejadores: List<HaltChecker>
+        +Reverser()
+        +actionPerformed(ActionEvent e)
+        +main(String[] args)
+    }
 }
 
-class HaltChecker {
-    + checkHalt(String codigoPrograma, String input)
-}
-
-class Reverser {
-    - checkButton: JButton
-    + Reverser()
-    + actionPerformed(ActionEvent e)
-    + main(String[] args)
-}
-
-InevitableHalt --> HaltChecker
-NeverHalt --> HaltChecker
+InevitableHalt --|> NeverHalt
+HaltCheckerInterface <|.. HaltChecker
 Reverser --> HaltChecker
 
 @enduml
