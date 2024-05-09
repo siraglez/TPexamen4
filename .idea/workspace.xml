@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6a275f-d197-42e7-b326-adb637fd6d74" name="Changes" comment="actualizar Reverser.java con nuevo patrón" />
+    <list default="true" id="9d6a275f-d197-42e7-b326-adb637fd6d74" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +17,8 @@
       <list>
         <option value="Class" />
         <option value="UML Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -93,7 +95,7 @@
       <workItem from="1714724203592" duration="6307000" />
       <workItem from="1715018860045" duration="1625000" />
       <workItem from="1715189224351" duration="1422000" />
-      <workItem from="1715190966298" duration="2097000" />
+      <workItem from="1715190966298" duration="2769000" />
     </task>
     <task id="LOCAL-00001" summary="crear repositorio">
       <option name="closed" value="true" />
@@ -327,16 +329,37 @@
       <option name="project" value="LOCAL" />
       <updated>1715239229624</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="actualizar comentarios codigo">
+      <option name="closed" value="true" />
+      <created>1715239319883</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1715239319883</updated>
+    </task>
+    <task id="LOCAL-00031" summary="actualizar diagramaClases.puml">
+      <option name="closed" value="true" />
+      <created>1715239406176</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1715239406176</updated>
+    </task>
+    <task id="LOCAL-00032" summary=".">
+      <option name="closed" value="true" />
+      <created>1715239537674</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1715239537674</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="crear repositorio" />
-    <MESSAGE value="InevitableHalt.java" />
-    <MESSAGE value="NeverHalt.java" />
     <MESSAGE value="HaltChecker.java" />
     <MESSAGE value="Reverser.java" />
     <MESSAGE value="simulación problema parar README.md" />
@@ -359,6 +382,9 @@
     <MESSAGE value="interfaz para aplicar patrón" />
     <MESSAGE value="actualizar HaltChecker.java con nuevo patrón" />
     <MESSAGE value="actualizar Reverser.java con nuevo patrón" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualizar Reverser.java con nuevo patrón" />
+    <MESSAGE value="actualizar comentarios codigo" />
+    <MESSAGE value="actualizar diagramaClases.puml" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

@@ -2,7 +2,9 @@ link al repositorio: https://github.com/siraglez/TPexamen4.git
 
 # Implementación del Problema de Parar:
 
-Este código consiste en varias clases Java que simulan el problema de parar de Alan Turing.
+* Este código consiste en varias clases Java que simulan el problema de parar de Alan Turing.
+* El paquete `simulacionProblemaParar` proporciona la implementación de los programas que se detienen y los que no.
+* El paquete `comprobacionProblemaParar` se centra en la lógica para comprobar si un programa se detiene o no, utilizando el patrón de Chain of Responsibility.
 
 ## Simulación problema parar:
 
@@ -13,5 +15,10 @@ Este código consiste en varias clases Java que simulan el problema de parar de 
 ## Comprobación problema parar:
 
 * La siguiente parte del código contiene las clases `HaltChecker` y `Reverser` en el paquete `comprobacionProblemaParar`.
+* **`HaltCheckerInterface`** : Esta interfaz define un método `checkHalt` que toma el código de un programa y una entrada específica, y devuelve un valor booleano indicando si el programa se detiene o no. Es la interfaz que deben implementar las clases que verifican si un programa se detiene.
 * **`HaltChecker`**: Esta clase contiene un método estático `checkHalt` que verifica si un programa se detiene o no. Toma como entrada el código del programa y una entrada específica para ese programa. Si el código del programa es "countDown" y la entrada es mayor que 0, se asume que el programa se detendrá y se devuelve `true`; de lo contrario, se devuelve `false`.
 * **`Reverser`**: Esta clase extiende `JFrame` y es una interfaz de usuario básica para comprobar si un programa se detiene o no. Tiene un botón "Comprobar" que al hacer clic solicita al usuario que ingrese el código del programa y una entrada específica. Luego utiliza el método `checkHalt` de `HaltChecker` para determinar si el programa se detiene o no. Si se detecta que el programa se detiene, muestra un mensaje indicando que el programa entra en un bucle infinito; de lo contrario, muestra un mensaje indicando que el programa termina inmediatamente.
+
+1. **HaltCheckerInterface**: Esta interfaz define un método `checkHalt` que toma el código de un programa y una entrada específica, y devuelve un valor booleano indicando si el programa se detiene o no. Es la interfaz que deben implementar las clases que verifican si un programa se detiene.
+
+1. **HaltCheckerInterface**: Esta interfaz define un método `checkHalt` que toma el código de un programa y una entrada específica, y devuelve un valor booleano indicando si el programa se detiene o no. Es la interfaz que deben implementar las clases que verifican si un programa se detiene.
