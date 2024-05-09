@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6a275f-d197-42e7-b326-adb637fd6d74" name="Changes" comment="README.md actualizado con los cambios del programa" />
+    <list default="true" id="9d6a275f-d197-42e7-b326-adb637fd6d74" name="Changes" comment="interfaz para aplicar patrón">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comprobacionProblemaParar/HaltChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comprobacionProblemaParar/HaltChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comprobacionProblemaParar/HaltListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comprobacionProblemaParar/HaltCheckerInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comprobacionProblemaParar/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comprobacionProblemaParar/Reverser.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +21,7 @@
         <option value="Class" />
         <option value="UML Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -92,6 +98,7 @@
       <workItem from="1714724203592" duration="6307000" />
       <workItem from="1715018860045" duration="1625000" />
       <workItem from="1715189224351" duration="1422000" />
+      <workItem from="1715190966298" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="crear repositorio">
       <option name="closed" value="true" />
@@ -293,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715190510982</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="interfaz para aplicar patrón">
+      <option name="closed" value="true" />
+      <created>1715191248612</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1715191248612</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +337,7 @@
     <MESSAGE value="aclarar comentarios" />
     <MESSAGE value="diagramaClases.puml" />
     <MESSAGE value="README.md actualizado con los cambios del programa" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md actualizado con los cambios del programa" />
+    <MESSAGE value="interfaz para aplicar patrón" />
+    <option name="LAST_COMMIT_MESSAGE" value="interfaz para aplicar patrón" />
   </component>
 </project>
