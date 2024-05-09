@@ -1,10 +1,13 @@
 package comprobacionProblemaParar;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //Implementación de un método que comprueba si el programa se detiene o no
-public class HaltChecker {
-    public static boolean checkHalt(String codigoPrograma, String input) {
-        //Simulación del HaltChecker
-        //Verifica si el programa cuenta hacia abajo desde un número específico
+public class HaltChecker implements HaltCheckerInterface {
+    @Override
+    public boolean checkHalt(String codigoPrograma, String input) {
+        //Verificar si el programa cuenta hacia abajo desde un número específico
         //Si la entrada es mayor que 0, asumimos que el programa se detendrá
         int inputNumber = Integer.parseInt(input);
         if (codigoPrograma.equals("countDown") && inputNumber > 0) {
